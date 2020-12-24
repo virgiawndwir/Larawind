@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.bg-body {
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 2px;
+    background: radial-gradient(100% 100% at 50% -0.2%, #2D686B 0%, rgba(45, 104, 107, 0.90625) 52.08%, rgba(45, 104, 107, 0.82) 100%);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/Roboto-Medium_0.ttf);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    font-size: 12px;
+}
+
+.left-shape {
+    height: 31rem;
+    background: radial-gradient(198.43% 100% at 50% 0%, #234F52 0%, rgba(43, 91, 95, 0.18) 51.56%, #2B5B5F 100%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.right-shape {
+    border-radius: 0px 10px 10px 0px;
+    background: rgba(255, 182, 40, 1);
+}
+
+.login-card {
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 62%;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.card-header {
+    position: relative;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 45px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.card-header span {
+    position: absolute;
+    font-size: 10px;
+    font-family: roboto-medium;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+.button {
+    font-family: roboto-medium;
+    font-size: 14px;
+    font-weight: 400;
+    background: #29585B;
+}
