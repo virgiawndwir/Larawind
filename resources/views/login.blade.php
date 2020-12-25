@@ -24,6 +24,7 @@
         <div class="right-shape tw-flex tw-justify-center">
           {{-- login card --}}
           <div class="login-card tw-h-64 tw-mt-28">
+            {{-- card header --}}
             <div class="card-header">
               <span class="tw-uppercase tw-text-yellow-400 tw-text-sm">Already Members</span>
             </div>
